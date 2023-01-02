@@ -41,7 +41,7 @@
     li {
         text-decoration: none;
         background-color: rgb(204, 204, 204);
-        padding: 15px 150px;
+        padding: 15px 47%;
         color: blue;
         /*margin-bottom: 10px;*/
         overflow: hidden;
@@ -59,7 +59,7 @@
     li:nth-child(4) {
         text-decoration: none;
         background-color: rgb(204, 204, 204);
-        padding: 15px 147px;
+        padding: 15px 46.5%;
         color: blue;
         margin-bottom: 10px;
         overflow: hidden;
@@ -68,7 +68,7 @@
     li:nth-child(3) {
         text-decoration: none;
         background-color: rgb(204, 204, 204);
-        padding: 15px 153px;
+        padding: 15px 47.5%;
         color: blue;
         margin-bottom: 10px;
         overflow: hidden;
@@ -90,11 +90,22 @@
 }
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width:992px) { /* ... */
+    html {
+        margin: 20px;
+        font-family: sans-serif;
+        overflow-x: hidden;
+    }
 
 h1{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: left;
+    /*display: flex;*/
+    /*flex-direction: column-reverse;*/
+    /*justify-content: left;*/
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
 }
     .nav-links{
         display: flex;
@@ -112,6 +123,9 @@ h1{
 
 
 }
-
+.header-img{
+    width: 890px;
+    height: 385px;
+}
 
 
