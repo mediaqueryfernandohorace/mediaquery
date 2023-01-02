@@ -29,6 +29,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
 
     .nav-links {
@@ -100,12 +101,13 @@ h1{
     /*display: flex;*/
     /*flex-direction: column-reverse;*/
     /*justify-content: left;*/
+    font-size: 50px;
     display: inline-block;
 }
 nav{
     display: inline-block;
     float: right;
-    margin-top: 40px;
+    margin-top: 55px;
 }
     .nav-links{
         display: flex;
@@ -123,9 +125,27 @@ nav{
 
 
 }
-.header-img{
-    width: 890px;
-    height: 385px;
+.header-img img{
+    height: auto;
+    width: 100%;
 }
 
+section.main{
+    display: inline-block;
+    width: 65%;
 
+}
+section.sub-section{
+    display: inline-block;
+    width: 30%;
+    float: right;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.main>h2{
+    font-size: 35px;
+}
+.hidden-on-desktop{
+    display: none;
+}
