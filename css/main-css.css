@@ -1,86 +1,113 @@
 /* Small devices (phones and pocket devices, 576 and up) */
-@media screen and (min-width:576px)  { /* ... */
-}
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width:768px) { /* ... */
-}
+@media screen and (min-width:576px)and (max-width: 991px) {
+    /* ... */
+    html {
+        margin: 20px;
+        font-family: sans-serif;
+        overflow-x: hidden;
+    }
 
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    /*.alert-info hidden-on-desktop {*/
+    /*}*/
+    .hidden-on-desktop a {
+        text-decoration: none;
+        background-color: rgb(214, 254, 254);
+        padding: 10px;
+        border: 2px solid lightgrey;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li {
+        text-decoration: none;
+        background-color: rgb(204, 204, 204);
+        padding: 15px 150px;
+        color: blue;
+        /*margin-bottom: 10px;*/
+        overflow: hidden;
+        margin: 10px 0;
+
+    }
+
+    img {
+        margin-left: 90px;
+    }
+
+    li:nth-child(4) {
+        text-decoration: none;
+        background-color: rgb(204, 204, 204);
+        padding: 15px 147px;
+        color: blue;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    li:nth-child(3) {
+        text-decoration: none;
+        background-color: rgb(204, 204, 204);
+        padding: 15px 153px;
+        color: blue;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .main {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .sub-section {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    footer {
+        margin-left: 47px;
+    }
+}
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width:992px) { /* ... */
-}
-/* Extra large devices (large desktops, 1200px and up) */
-@media screen and (min-width:1200px) { /* ... */
-}
-html{
-    margin:20px;
-    font-family: sans-serif;
-    overflow-x: hidden;
-}
 
-ul{
-    list-style: none;
-    padding: 0;
-}
-/*.alert-info hidden-on-desktop {*/
-
-/*}*/
-.hidden-on-desktop a {
-    text-decoration: none;
-    background-color: rgb(214,254,254);
-    padding: 10px;
-    border: 2px solid lightgrey ;
-    color: black;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
 h1{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: left;
 }
-.nav-links{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:center;
-}
-li{
-    text-decoration: none;
-    background-color: rgb(204,204,204);
-    padding: 15px 150px;
-    color: blue;
-    /*margin-bottom: 10px;*/
-    overflow: hidden;
-    margin:10px 0;
+    .nav-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
 
-}
-img{
-    margin-left:90px;
-}
-li:nth-child(4){
-    text-decoration: none;
-    background-color: rgb(204,204,204);
-    padding: 15px 147px;
-    color: blue;
-    margin-bottom: 10px;
-    overflow: hidden;
-}
-li:nth-child(3){
-    text-decoration: none;
-    background-color: rgb(204,204,204);
-    padding: 15px 153px;
-    color: blue;
-    margin-bottom: 10px;
-    overflow: hidden;
-}
-.main{
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.sub-section{
-    margin-left: 50px;
-    margin-right: 50px;
+    }
+    li{
+        margin-left:10px;
+    }
+    ul{
+        list-style: none;
+
+    }
+
+
 }
 
 
