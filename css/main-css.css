@@ -11,7 +11,11 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width:1200px) { /* ... */
 }
-
+html{
+    margin:20px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
 
 ul{
     list-style: none;
@@ -23,7 +27,7 @@ ul{
 .hidden-on-desktop a {
     text-decoration: none;
     background-color: rgb(214,254,254);
-    padding: 10px 93px;
+    padding: 10px;
     border: 2px solid lightgrey ;
     color: black;
     display:flex;
@@ -44,11 +48,40 @@ h1{
 li{
     text-decoration: none;
     background-color: rgb(204,204,204);
-    padding: 10px 93px;
+    padding: 15px 150px;
     color: blue;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
+    overflow: hidden;
+    margin:10px 0;
 
 }
 img{
-    margin-left:115px;
+    margin-left:90px;
 }
+li:nth-child(4){
+    text-decoration: none;
+    background-color: rgb(204,204,204);
+    padding: 15px 147px;
+    color: blue;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+li:nth-child(3){
+    text-decoration: none;
+    background-color: rgb(204,204,204);
+    padding: 15px 153px;
+    color: blue;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sub-section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
